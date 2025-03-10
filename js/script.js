@@ -413,7 +413,7 @@ shalom();
 
 //A function that adds two numbers
 functionaddNum(num1,num2,num3){
-    console.log(num1+num2+number3);
+    console.log(num1+num2+num3);
 
 }
 addNum(2,3,4);
