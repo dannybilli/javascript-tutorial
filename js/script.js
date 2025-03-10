@@ -351,11 +351,69 @@ switch(CarColor){
 //Functions
 // Normal Function
 
+function daniel(){
+    console.log('Daniel is learning Javascript')
+}
+setInterval(()=> {
+    daniel();
+
+}, 3000);
+
+
+
+
+
 function goodmorning(){
     console.log('Good morning Dear')
 }
 goodmorning();
 
 function lesi(){
-    console.log('Lesi ')
+    console.log('Lesi is a software developer')
 }
+lesi();
+
+function  Eben(){
+    console.log('Eben is  a software Engineer')
+}
+Eben();
+
+let word = 'Daniel is learning how to use function in Javascript';
+
+function Racheal(){
+    console.log(word)
+}
+function OutPutHello(){
+    console.log('Hello')
+}
+OutPutHello();
+
+// How to write Arrow Function
+
+let currentLocation = ()=>{
+
+}
+currentLocation();
+
+let danny = () =>{
+
+}
+dann();
+
+const precious = () =>{
+    console.log('Precious is learning how to use function in Javascript')
+}
+precious();
+
+function shalom(a=2, b=3, c=7){
+    let sumTotal = a + b + c;
+    console.log(sumTotal);
+}
+shalom();
+
+//A function that adds two numbers
+functionaddNum(num1,num2,num3){
+    console.log(num1+num2+number3);
+
+}
+addNum(2,3,4);
